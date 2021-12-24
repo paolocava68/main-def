@@ -1,0 +1,10 @@
+.sfondo {
+    background-image: url("https://fitness.paolibostudio.com/wp-content/themes/fitness-paolibo/assets/img/video.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px 582px;
+}
+.size {
+    height: 582px;
+    width: 450px;
+}
