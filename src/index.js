@@ -18,12 +18,15 @@ import {
 import Fitness from "./components/Fitness";
 import Piani from "./components/Piani";
 import Questionnaire from "./components/questionnaire";
+import LoginAndRegister from "./components/login&registerPage";
+import HomePage from "./components/HomePage";
 
 ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<LoginAndRegister />} />
+      <Route path="/home" element={<HomePage />} />
       <Route path="/fitness" element={<Fitness />} />
       <Route path="/piani" element={<Piani />} />
       <Route path="/questionnaire" element={<Questionnaire />} />
